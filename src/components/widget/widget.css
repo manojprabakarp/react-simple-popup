@@ -1,0 +1,29 @@
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown__content {
+    position: absolute;
+}
+.drop_header{
+    display: block;
+    width: 123px;
+}
+.dropdown--active .dropdown__content {
+    display: block;
+}
+.dropdown__content {
+    margin-top: 5px;
+    border-top: rgba(0, 0, 0, 0.05) 1px solid;
+    background: #ffffff;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15);
+}
+.account-dropdown__segment {
+    padding: 10px 15px;
+    border-bottom: #e1e1e1 1px solid;
+    display: block;
+}
+.dropdown__content ul{
+    padding: 0;
+}
